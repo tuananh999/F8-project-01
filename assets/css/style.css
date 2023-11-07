@@ -47,7 +47,7 @@ a {
 
 /************ Header **************/
 .header {
-    height: 736px;
+    height: 100vh;
     background: #e6f0ff;
     position: relative;
 }
@@ -101,7 +101,7 @@ a {
 }
 
 .hero .sub-title {
-    color: #687691;
+    color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.01em;
@@ -171,8 +171,19 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 70px 10px 0;
+}
+
+.client .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+}
+
+.client .images a:hover {
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
 }
 
 /* =============Guides============== */
